@@ -1,25 +1,23 @@
-<?php ?>
-
 <!DOCTYPE html>
 <html lang="fr">
     <head>
         <meta charset="utf-8">
-        <title>Title of the web page</title>
+        <title>L'Epicerie Bonne Mine</title>
         <link rel="stylesheet" href="style.css" type="text/css">
         <meta name="viewport" content="width=device-width">
     </head>
     <body>
         
         <header>  <!-- ##### HEADER ##### -->
-            header
+            <?php include("header.html"); ?>
         </header> <!-- ##### end - HEADER ##### -->
         
         <div id="page">
-            page
+            L'Epicerie Bonne Mine
         </div>
 
         <footer>  <!-- ##### FOOTER ##### -->
-            footer
+        <?php include("footer.html"); ?>
         </footer> <!-- ##### end - FOOTER ##### -->
 
     </body>
