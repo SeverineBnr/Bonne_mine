@@ -17,7 +17,7 @@
         </div>
 
         <footer>  <!-- ##### FOOTER ##### -->
-        <?php include("footer.html"); ?>
+            <?php include("footer.html"); ?>
         </footer> <!-- ##### end - FOOTER ##### -->
 
     </body>
