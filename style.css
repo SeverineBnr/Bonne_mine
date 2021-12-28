@@ -1,11 +1,146 @@
-header{
+/* header{
     background-color: orange;
+} */
+
+.gras{
+    font-weight: bold;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+    float: left;
+    padding: 10px;
+}
+
+.slogan{
+    margin-left: 150px;
+    text-align: center;
+}
+
+.ecoresponsable{
+    color: #c45924;
+    font-weight: bold;
+}
+
+.produits_locaux{
+    color: #f9ae30;
+    font-weight: bold;
+}
+
+.en_vrac{
+    color: #a4b434;
+    font-weight: bold;
+}
+
+.descripion{
+
+}
+
+.bar_nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /*les blocs vont à la ligne lorsqu'ils n'ont plus la place*/
+    justify-content: space-around;
+    align-items: flex-start;
+    /* margin-top: 70px;
+    padding: 0;
+    overflow: hidden;*/
+    background-color: #f9ae30; 
+}
+.element_bar_nav{
+    margin: auto;
+    /* float: left; */
+    font-weight: bold;
+}
+
+.bar_nav a:hover{
+    text-decoration: underline;
+    background-color:  #fed790; 
+    /* #c9c9c3; */
+    color: #c45924;
+}
+
+.bar_nav a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 #page{
-    background-color: green;
+    /* background-color: green; */
+}
+
+
+.pourquoi{
+    font-family: 'Savoye LET';
+    font-size: 30px;
+}
+
+.lieu_de_vie{
+    background-color: #a4b434;
+    border-radius: 10px;
+    border: 1px black solid; /* bord noir de 1px */
+    box-shadow: 6px 6px 6px black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.lieu_ethique{
+    background-color: #f9ae30;
+    border-radius: 10px;
+    border: 1px black solid;
+    box-shadow: 6px 6px 6px black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.lieu_ancre{
+    background-color: #c45924;
+    border-radius: 10px;
+    border: 1px black solid;
+    box-shadow: 6px 6px 6px black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.bonne_mine{
+    font-family: 'Savoye LET';
+    font-size: 30px;
 }
 
 footer{
-    background-color: red;
+    background-color: #f9ae30;
+    min-height: 100%;
+}
+
+.ligne{
+    display: flex;
+}
+
+.colonne{
+    flex: 50%;
+    margin: 10px;
+}
+
+.adresse{
+    text-align: right;
+}
+
+.droits_reserves{
+    text-align: center;
 }

@@ -13,25 +13,28 @@
         </header> <!-- ##### end - HEADER ##### -->
         
         <div id="page">
-            <a href="index.php"><img src="img/Logo.png" alt="Logo de L'Épicerie Bonne Mine"></a>
-            ECORESPONSABLE PRODUITS LOCAUX EN VRAC<br>
-            Une épicerie de produits authentiques préparés par des femmes et des hommes respectueux de notre alimentation et de notre planète.
+            <div class="pourquoi">
+                <br>Pourquoi L'Epicerie Bonne Mine ?
+            </div>
 
-            Pourquoi L'Epicerie Bonne Mine ?
-
-            <p>Un lieu de vie<br>
-            Nous faisons nos courses apaisé.e.s.<br>
-            Nous avons une écoute bienveillante et discrète. Nous nous rencontrons et nous avançons.<br>
-            Nous avons bonne mine</p>
-
-            <p>Un lieu éthique<br>
-            Nous consommons des produits sains. Nous limitons nos déchets en achetant le produit et non son contenant. Nous nous sentons responsables de notre consommation. Nous payons un prix juste.<br>
-            Nous avons bonne mine</p>
+            <div class="lieu_de_vie">
+                <span class="gras">Un lieu de vie</span><br><br>
+                Nous faisons nos courses apaisé.e.s.<br>
+                Nous avons une écoute bienveillante et discrète. Nous nous rencontrons et nous avançons.<br>
+                Nous avons <span class="bonne_mine">bonne mine</span>
+            </div>
             
-            <p>Un lieu ancré<br>
-            Dans ce village d’irréductibles, nous défendons notre territoire, nos idées.<br>
-            Nous avons bonne mine</p>
-
+            <div class="lieu_ethique">
+                <span class="gras">Un lieu éthique</span><br><br>
+                Nous consommons des produits sains. Nous limitons nos déchets en achetant le produit et non son contenant. Nous nous sentons responsables de notre consommation. Nous payons un prix juste.<br>
+                Nous avons <span class="bonne_mine">bonne mine</span>
+            </div>
+            
+            <div class="lieu_ancre">
+                <span class="gras">Un lieu ancré</span><br><br>
+                Dans ce village d’irréductibles, nous défendons notre territoire, nos idées.<br>
+                Nous avons <span class="bonne_mine">bonne mine</span>
+            </div> 
         </div>
 
         <footer>  <!-- ##### FOOTER ##### -->
