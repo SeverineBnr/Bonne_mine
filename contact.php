@@ -13,7 +13,7 @@
         </header> <!-- ##### end - HEADER ##### -->
         
         <div id="page">
-            L'Epicerie Bonne Mine - Contact <br>
+            <!-- L'Epicerie Bonne Mine - Contact <br> -->
             <?php
                 if(isset($_POST['contact'])){
                     if(isset($_POST['nom']) && isset($_POST['prenom']) && isset($_POST['email']) && isset($_POST['objet']) && isset($_POST['contenu']) && isset($_POST['civilite'])){
@@ -35,33 +35,40 @@
                     }
                 }
             ?>
-
+            <div class="section_horaires">
+                <div class="titre_horaires">Nos horaires d'ouverture :<br></div>
+                <br><div class="gras">mardi - mercredi - jeudi :</div> 8h30 - 12h30 / 15h30 - 18h<br><br>
+                <div class="gras">vendredi :</div> 9h30 - 12h30 / 15h30 - 18h<br><br>
+                <div class="gras">samedi - dimanche :</div> 9h30 - 12h30 / 15h30 - 18h<br>
+            </div>
 
             <form action="contact.php" method="POST"> 
+                <div class="titre_formulaire">Écrivez-nous<br></div>
+                <div class="description_formulaire">Une remarque ? Une question ? N'hésitez pas à nous contacter<br><br></div>
                 <input type="radio" name="civilite" id="m" value="M.">
-                <label for="m">M.</label><br>
+                <label class="gras" for="m">M.</label>
 
                 <input type="radio" name="civilite" id="mme" value="Mme">
-                <label for="mme">Mme</label><br>
+                <label class="gras" for="mme">Mme</label><br><br>
 
-                <label for="nom">Nom :</label><br>
-                <input type="text" name="nom" id="nom"><br>
+                <label class="gras" for="nom">Nom :</label><br>
+                <input type="text" name="nom" id="nom"><br><br>
                 
-                <label for="prenom">Prénom :</label><br>
-                <input type="text" name="prenom" id="prenom"><br>
+                <label class="gras" for="prenom">Prénom :</label><br>
+                <input type="text" name="prenom" id="prenom"><br><br>
                 
-                <label for="email">Email :</label><br>
-                <input type="email" name="email" id="email" required><br>
+                <label class="gras" for="email">Email :</label><br>
+                <input type="email" name="email" id="email" required placeholder="exemple@email.com"><br><br>
 
-                <label for="objet">Objet :</label><br>
-                <input type="text" name="objet" id="objet"><br>
+                <label class="gras" for="objet">Objet :</label><br>
+                <input type="text" name="objet" id="objet"><br><br>
 
-                <label for="contenu">Contenu de votre message :</label><br>
-                <textarea name="contenu" id="contenu"></textarea><br>
+                <label class="gras" for="contenu">Contenu de votre message :</label><br>
+                <textarea name="contenu" id="contenu"></textarea><br><br>
             
                 <button type="submit" name="contact" value="Envoyer">Envoyer</button>
             </form>
-
+            
             
             <?php
                 ini_set("SMTP", "ssl0.ovh.net");

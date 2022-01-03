@@ -6,7 +6,19 @@
     font-weight: bold;
 }
 
+button{
+    background-color: #fed790;
+    font-weight: bold;
+}
+
+.bienvenue{
+    font-family:'Arsenale White';
+    font-size: 30px;
+}
+
 .logo{
+    /* display: inline-block;
+    vertical-align: bottom; */
     width: 150px;
     height: 150px;
     float: left;
@@ -21,36 +33,42 @@
 .ecoresponsable{
     color: #c45924;
     font-weight: bold;
+    font-family: 'Marker Felt';
 }
 
 .produits_locaux{
     color: #f9ae30;
     font-weight: bold;
+    font-family: 'Marker Felt';
 }
 
 .en_vrac{
     color: #a4b434;
     font-weight: bold;
+    font-family: 'Marker Felt';
 }
 
-.descripion{
-
+.description{
+    font-family: 'Abadi MT Condensec';
 }
 
 .bar_nav{
+    /* display: inline-block;
+    vertical-align: bottom; */
+    min-width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; /*les blocs vont à la ligne lorsqu'ils n'ont plus la place*/
     justify-content: space-around;
     align-items: flex-start;
-    /* margin-top: 70px;
     padding: 0;
-    overflow: hidden;*/
+    overflow: hidden;
     background-color: #f9ae30; 
 }
 .element_bar_nav{
+    display: flex;
     margin: auto;
-    /* float: left; */
+    float: left;
     font-weight: bold;
 }
 
@@ -75,7 +93,7 @@
 
 
 .pourquoi{
-    font-family: 'Savoye LET';
+    font-family: 'Arsenale White';
     font-size: 30px;
 }
 
@@ -119,13 +137,58 @@
 }
 
 .bonne_mine{
-    font-family: 'Savoye LET';
+    font-family: 'Arsenale White';
+    font-size: 30px;
+}
+/*############################### FORMULAIRE DE CONTACT ###############################*/
+.titre_horaires{
+    font-weight: bold;
+    font-family:'Arsenale White';
     font-size: 30px;
 }
 
+.section_horaires{
+    text-align: center;
+    font-size: 16px;
+    background-color: #fed790; 
+    border-radius: 10px;
+    border: 1px black solid; /* bord noir de 1px */
+    box-shadow: 6px 6px 6px black; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.titre_formulaire{
+    font-weight: bold;
+    font-family:'Arsenale White';
+    font-size: 30px;
+}
+
+form{
+    text-align: center;
+    background-color: #a4b434; 
+    border-radius: 10px;
+    border: 1px black solid; /* bord noir de 1px */
+    box-shadow: 6px 6px 6px black; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 footer{
+    display: block;
     background-color: #f9ae30;
-    min-height: 100%;
+    /* min-height: 100%;
+    bottom:0;
+    left:0; */
+    /* box-sizing: border-box;  */
 }
 
 .ligne{
@@ -136,6 +199,27 @@ footer{
     flex: 50%;
     margin: 10px;
 }
+
+.logo_fb{
+    width: 20px;
+    height: 20px;
+}
+
+.logo_mail{
+    width: 15px;
+    height: 15px;
+}
+
+.logo_telephone{
+    width: 15px;
+    height: 15px;
+}
+
+
+.logo_boutique{
+    width: 15px;
+    height: 15px;
+} 
 
 .adresse{
     text-align: right;
