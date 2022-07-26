@@ -1,0 +1,126 @@
+&lt;details&gt;
+&lt;summary&gt;Click to view System Check&lt;/summary&gt;
+
+### Mandatory checks
+
+#### Version PHP &gt;= 7.2.5:
+ ✔ 8.1.0
+
+#### PDO Extension:
+ ✔ 
+
+#### PDO\MYSQL Extension:
+ ✔ 
+
+#### MYSQLI Extension:
+ ✔ 
+
+#### Extensions requises:
+ ✔ zlib ✔ json ✔ filter ✔ hash ✔ session
+
+#### Fonctions requises:
+ ✔ debug_backtrace ✔ eval ✔ hash ✔ gzcompress ✔ gzuncompress ✔ pack
+
+#### Configuration PHP requise (php.ini):
+ ✔ session.auto_start = 0 ✔ max_execution_time = 0 OR = -1 OR &gt;= 30
+
+#### Répertoires avec les droits d'accès en écriture:
+ ✔ $DOC_ROOT/tmp ✔ $DOC_ROOT/tmp/assets ✔ $DOC_ROOT/tmp/cache ✔ $DOC_ROOT/tmp/climulti ✔ $DOC_ROOT/tmp/latest ✔ $DOC_ROOT/tmp/logs ✔ $DOC_ROOT/tmp/sessions ✔ $DOC_ROOT/tmp/tcpdf ✔ $DOC_ROOT/tmp/templates_c ✔ $DOC_ROOT/config
+
+
+### Optional checks
+
+#### Intégrité du fichier:
+ ⚠ Warning: Le contrôle d'intégrité a échoué et a rapporté des erreurs. Vous devriez corriger ces problèmes puis rafraîchir cette page jusqu'à ce qu'il n'y ait plus d'erreur.&lt;br/&gt;&lt;br/&gt;Des fichiers auxquels nous ne nous attendions pas ont été trouvés dans votre installation de Matomo.&lt;br/&gt;--&gt; Veuillez supprimer ces fichiers pour éviter d'avoir des erreurs. 
+
+#### Binaire PHP 64 bits:
+ ✔ 
+
+#### Statut du traqueur:
+ ✔ 
+
+#### Limite mémoire:
+ ✔ 512M
+
+#### Fuseau horaire:
+ ✔ 
+
+#### Ouvrez l'URL:
+ ✔ curl
+
+#### PageSpeed désactivé:
+ ✔ 
+
+#### GD &gt; 2.x + Freetype (graphiques):
+ ✔ 
+
+#### Autres extensions:
+ ✔ json ✔ libxml ✔ dom ✔ SimpleXML ✔ openssl
+
+#### Autres fonctions:
+ ✔ shell_exec ✔ set_time_limit ✔ mail ✔ parse_ini_file ✔ glob ✔ gzopen ✔ md5_file
+
+#### Système de fichiers:
+ ⚠ Warning: Votre serveur utilise un système de fichier NFS.&lt;br /&gt;Utiliser les sessions en fichier avec NFS est très lent, donc Matomo va utiliser des sessions en base de données. Si vous avez plusieurs utilisateurs de tableaux de bords en parallèle, vous pourriez avoir besoin d'augmenter le nombre maximal de connexions au serveur de base de données.
+
+#### Paramétrer une tâche Cron - Gestion des processus via la ligne de commande:
+ ✔ Ok
+
+#### Mettre à jour via HTTPS:
+ ✔ 
+
+#### Traceur JavaScript inscriptible ("/matomo.js"):
+ ✔ 
+
+
+### Informational results
+
+#### Matomo Version:
+ 4.7.1
+
+#### PHP_OS:
+ Linux
+
+#### PHP SAPI:
+ ⚠ Warning: fpm-fcgi&lt;br&gt;&lt;br&gt;PHP FPM ignorera les règles .htaccess pour les fichiers .php. Pour s'assurer que les fichiers sensibles ne sont pas accessibles directement, il est recommandé d'exclure certains répertoires de la gestion de PHP FPM en ajoutant la ligne &lt;code&gt;ProxyPass /config !&lt;/code&gt; à la section &lt;code&gt;mod_proxy_fcgi.c&lt;/code&gt; de la configuration de votre hôte virtuel Apache, juste au-dessus de la ligne &lt;code&gt;ProxyPassMatch&lt;/code&gt;.
+
+#### PHP Timezone:
+ UTC
+
+#### PHP Time:
+ 1645018181
+
+#### PHP Datetime:
+ 2022-02-16 13:29:42
+
+#### PHP Disabled functions:
+ _dyuweyrj4, _dyuweyrj4r, dl
+
+#### PHP INI max_execution_time:
+ 165
+
+#### PHP INI post_max_size:
+ 130M
+
+#### PHP INI max_input_vars:
+ 16000
+
+#### PHP INI zlib.output_compression:
+ 
+
+#### Curl Version:
+ 7.64.0, OpenSSL/1.1.1d
+
+#### Suhosin Installed:
+ 0
+
+#### Server Info:
+ Apache
+
+#### User Agent:
+ Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:97.0) Gecko/20100101 Firefox/97.0
+
+#### Browser Language:
+ fr-fr,fr,en-gb,en-us,en
+
+&lt;/details&gt;

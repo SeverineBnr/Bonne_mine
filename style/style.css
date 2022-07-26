@@ -2,6 +2,11 @@
     background-color: orange;
 } */
 
+@font-face {
+    font-family: "Arsenale White";
+    src: url('arsenale_white.ttf');
+}
+
 .gras{
     font-weight: bold;
 }
@@ -87,9 +92,9 @@ button{
     text-decoration: none;
 }
 
-#page{
-    /* background-color: green; */
-}
+/* #page{
+    background-color: green;
+}*/
 
 
 .pourquoi{
