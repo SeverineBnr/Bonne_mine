@@ -2,18 +2,26 @@
     background-color: orange;
 } */
 
+@font-face {
+    font-family: "Arsenale White";
+    src: url('arsenale_white.ttf');
+}
+
 .gras{
     font-weight: bold;
+}
+
+.blanc{
+    color: white;
+}
+
+.arsenale_white{
+    font-family:'Arsenale White';
 }
 
 button{
     background-color: #fed790;
     font-weight: bold;
-}
-
-.bienvenue{
-    font-family:'Arsenale White';
-    font-size: 30px;
 }
 
 .logo{
@@ -30,7 +38,7 @@ button{
     text-align: center;
 }
 
-.ecoresponsable{
+/* .ecoresponsable{
     color: #c45924;
     font-weight: bold;
     font-family: 'Marker Felt';
@@ -46,10 +54,12 @@ button{
     color: #a4b434;
     font-weight: bold;
     font-family: 'Marker Felt';
-}
+} */
 
-.description{
-    font-family: 'Abadi MT Condensec';
+#conteneur_body_accueil{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .bar_nav{
@@ -87,20 +97,27 @@ button{
     text-decoration: none;
 }
 
-#page{
-    /* background-color: green; */
+/* #page{
+    background-color: green;
+}*/
+
+/* .photo_accueil{
+
+} */
+
+.texte_page_accueil{
+    font-family: 'Abadi MT Condensec', 'Arial';
 }
 
-
-.pourquoi{
+/* .pourquoi{
     font-family: 'Arsenale White';
     font-size: 30px;
-}
+} */
 
-.lieu_de_vie{
+/* .lieu_de_vie{
     background-color: #a4b434;
     border-radius: 10px;
-    border: 1px black solid; /* bord noir de 1px */
+    border: 1px black solid; 
     box-shadow: 6px 6px 6px black;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -108,9 +125,9 @@ button{
     padding-bottom: 15px;
     padding-left: 15px;
     padding-right: 15px;
-}
+} */
 
-.lieu_ethique{
+/* .lieu_ethique{
     background-color: #f9ae30;
     border-radius: 10px;
     border: 1px black solid;
@@ -121,9 +138,9 @@ button{
     padding-bottom: 15px;
     padding-left: 15px;
     padding-right: 15px;
-}
+} */
 
-.lieu_ancre{
+/* .lieu_ancre{
     background-color: #c45924;
     border-radius: 10px;
     border: 1px black solid;
@@ -134,7 +151,11 @@ button{
     padding-bottom: 15px;
     padding-left: 15px;
     padding-right: 15px;
-}
+} */
+
+/* .flux_fb{
+
+} */
 
 .bonne_mine{
     font-family: 'Arsenale White';
@@ -200,11 +221,6 @@ footer{
     margin: 10px;
 }
 
-.logo_fb{
-    width: 20px;
-    height: 20px;
-}
-
 .logo_mail{
     width: 15px;
     height: 15px;
@@ -215,6 +231,11 @@ footer{
     height: 15px;
 }
 
+a.tel{
+    font-family: 'Abadi MT Condensec', 'Arial';
+    color : white;
+    font-weight: bold;
+}
 
 .logo_boutique{
     width: 15px;
@@ -227,4 +248,6 @@ footer{
 
 .droits_reserves{
     text-align: center;
+    color: white;
 }
+
