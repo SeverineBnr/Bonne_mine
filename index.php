@@ -51,6 +51,7 @@
         
         <div id="page">
         <br><br><br><strong>Site en construction</strong><br><br><br>
+<<<<<<< HEAD
 
             <img src="img/accueil.jpg" class="photo_accueil">
             
@@ -91,6 +92,15 @@
             </div>
 
         <!-- ########################################
+=======
+            <!-- Facebook API -->
+			<!-- <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Flepiceriebonnemine&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> -->
+                <div style="text-align: center;">
+                <iframe name="f3778b085f8245" data-testid="fb:page Facebook Social Plugin" title="fb:page Facebook Social Plugin" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" style="border: medium none; visibility: visible; width: 340px; height: 500px;" src="https://www.facebook.com/v12.0/plugins/page.php?adapt_container_width=true&amp;app_id=113869198637480&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df434e741e2f2fa%26domain%3Ddevelopers.facebook.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fdevelopers.facebook.com%252Ff27ee42773ce952%26relation%3Dparent.parent&amp;container_width=735&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Flepiceriebonnemine&amp;locale=fr_FR&amp;sdk=joey&amp;show_facepile=true&amp;small_header=true&amp;tabs=timeline" class="" width="1000px" height="1000px" frameborder="0"></iframe>
+            </div>
+            <!-- End Facebook API -->
+
+>>>>>>> 617362cd438e4ef1d637f0166119616580b61d79
             <div class="pourquoi">
                 <br>Pourquoi L'Epicerie Bonne Mine ?
             </div>

@@ -108,8 +108,14 @@
             ?>
             <div class="section_horaires">
                 <div class="titre_horaires">Nos horaires d'ouverture :<br></div>
+<<<<<<< HEAD
                 <br><div class="gras">du mardi au vendredi :</div> 9h - 12h30 / 16h - 19h<br><br>
                 <div class="gras">samedi et dimanche :</div> 9h - 12h30<br>
+=======
+                <br><div class="gras">mardi - mercredi - jeudi :</div> 8h30 - 12h30 / 15h30 - 18h30<br><br>
+                <div class="gras">vendredi :</div> 9h30 - 12h30 / 15h30 - 19h30<br><br>
+                <div class="gras">samedi - dimanche :</div> 9h30 - 12h30<br>
+>>>>>>> 617362cd438e4ef1d637f0166119616580b61d79
             </div>
 
             <form action="contact.php" method="POST"> 
